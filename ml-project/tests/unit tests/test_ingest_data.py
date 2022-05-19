@@ -1,6 +1,6 @@
 import sys 
 #sys.path.insert(0,"/mnt/d/mle-training/ml-project/src/housing_price_prediction")
-from housing_price_prediction import ingest_data
+from src.housing_price_prediction import ingest_data
 import unittest
 
 class Test_Train(unittest.TestCase):
