@@ -71,7 +71,6 @@ dependencies:
   - pandas=1.4.2=py39h295c915_0
   - pcre=8.45=h295c915_0
   - pillow=9.0.1=py39h22f2fdc_0
-  - pip=21.2.4=py39h06a4308_0
   - pluggy=1.0.0=py39h06a4308_1
   - py=1.11.0=pyhd3eb1b0_0
   - pycparser=2.21=pyhd3eb1b0_0
@@ -114,6 +113,7 @@ dependencies:
     - build==0.7.0
     - housing-price-prediction==0.2
     - pep517==0.12.0
+    - pip==22.1
     - pytest==7.1.2
     - sphinx-rtd-theme==1.0.0
     - tomli==2.0.1
