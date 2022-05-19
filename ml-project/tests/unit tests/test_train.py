@@ -5,8 +5,8 @@ import unittest
 
 class Test_Train(unittest.TestCase):
     def test_parse_args(self):
-        self.assertEqual(train.args.dataset,"/mnt/d/mle-training/ml-project/data/processed/train.csv")
-        self.assertEqual(train.args.output_model_path,"/mnt/d/mle-training/ml-project/artifacts/models/")
+        self.assertEqual(train.args.dataset,"data/processed/train.csv")
+        self.assertEqual(train.args.output_model_path,"artifacts/models/")
     
     def test_linear_model(self):
         method=train.Model()

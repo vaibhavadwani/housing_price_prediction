@@ -5,7 +5,7 @@ import unittest
  
 class Test_score(unittest.TestCase):
     def test_pars_args(self):
-        self.assertEqual(score.args.dataset_folder,"/mnt/d/mle-training/ml-project/data/processed/test.csv")
+        self.assertEqual(score.args.dataset_folder,"data/processed/test.csv")
 
     def test_score(self):
         method=score.scores()
