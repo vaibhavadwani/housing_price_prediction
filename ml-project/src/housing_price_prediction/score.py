@@ -16,7 +16,7 @@ import sys
 
 parser=argparse.ArgumentParser()
 parser.add_argument("--model_folder",default="artifacts/models/",type=str,help="provide the model folder")
-parser.add_argument("--dataset_folder",default="processed/test.csv",type=str,help="provide dataset folder")
+parser.add_argument("--dataset_folder",default="data/processed/test.csv",type=str,help="provide dataset folder")
 parser.add_argument("--output folder",default="artifacts",type=str,help="provide the output folder")
 parser.add_argument("--log_level", type = str,default="DEBUG",help="specifiy level of debug")
 parser.add_argument("--log_path", type = str,help="specify the path where to save log file")
